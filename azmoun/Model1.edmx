@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AzmounModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Colibrations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Certificate_Number" Type="varchar" MaxLength="32" Nullable="false" />
+          <Property Name="Date_of_Calibration" Type="date" Nullable="false" />
+          <Property Name="Customer_name" Type="varchar" MaxLength="128" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="256" />
+          <Property Name="Re_Calibration_Date" Type="date" />
+          <Property Name="Location" Type="varchar" MaxLength="128" />
+          <Property Name="Form_number" Type="varchar" MaxLength="64" />
+          <Property Name="Calibration_Condition" Type="varchar" MaxLength="256" />
+          <Property Name="Instrument_id" Type="int" />
+        </EntityType>
+        <EntityType Name="Instruments_category">
+          <Key>
+            <PropertyRef Name="Device_id" />
+          </Key>
+          <Property Name="Device_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Device_category" Type="varchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Presure_device">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Device_type" Type="varchar" MaxLength="32" Nullable="false" />
+          <Property Name="Device_name" Type="varchar" MaxLength="32" Nullable="false" />
+          <Property Name="Mode" Type="varchar" MaxLength="16" Nullable="false" />
+          <Property Name="Class" Type="int" />
+          <Property Name="Min_range" Type="float" Nullable="false" />
+          <Property Name="Max_range" Type="float" Nullable="false" />
+          <Property Name="Resulation" Type="float" Nullable="false" />
+          <Property Name="Serial_number" Type="varchar" MaxLength="32" />
+          <Property Name="Manufacturer" Type="varchar" MaxLength="64" />
+          <Property Name="Reception_Number" Type="varchar" MaxLength="64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Refrences">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="category" Type="varchar" MaxLength="32" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="64" Nullable="false" />
+          <Property Name="Range_unit" Type="varchar" MaxLength="32" Nullable="false" />
+          <Property Name="Min_range" Type="float" />
+          <Property Name="Max_range" Type="float" />
+          <Property Name="Accuracy_unit" Type="varchar" MaxLength="32" Nullable="false" />
+          <Property Name="Accuracy" Type="float" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Colibrati__Instr__2B3F6F97">
+          <End Role="Instruments_category" Type="Self.Instruments_category" Multiplicity="0..1" />
+          <End Role="Colibrations" Type="Self.Colibrations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instruments_category">
+              <PropertyRef Name="Device_id" />
+            </Principal>
+            <Dependent Role="Colibrations">
+              <PropertyRef Name="Instrument_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Instrumen__Devic__276EDEB3">
+          <End Role="Presure_device" Type="Self.Presure_device" Multiplicity="1" />
+          <End Role="Instruments_category" Type="Self.Instruments_category" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Presure_device">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Instruments_category">
+              <PropertyRef Name="Device_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AzmounModelStoreContainer">
+          <EntitySet Name="Colibrations" EntityType="Self.Colibrations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Instruments_category" EntityType="Self.Instruments_category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Presure_device" EntityType="Self.Presure_device" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Refrences" EntityType="Self.Refrences" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Colibrati__Instr__2B3F6F97" Association="Self.FK__Colibrati__Instr__2B3F6F97">
+            <End Role="Instruments_category" EntitySet="Instruments_category" />
+            <End Role="Colibrations" EntitySet="Colibrations" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Instrumen__Devic__276EDEB3" Association="Self.FK__Instrumen__Devic__276EDEB3">
+            <End Role="Presure_device" EntitySet="Presure_device" />
+            <End Role="Instruments_category" EntitySet="Instruments_category" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AzmounModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Colibrations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Certificate_Number" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Date_of_Calibration" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Customer_name" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="Re_Calibration_Date" Type="DateTime" Precision="0" />
+          <Property Name="Location" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+          <Property Name="Form_number" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="Calibration_Condition" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Instruments_category" Relationship="Self.FK__Colibrati__Instr__2B3F6F97" FromRole="Colibrations" ToRole="Instruments_category" />
+        </EntityType>
+        <EntityType Name="Instruments_category">
+          <Key>
+            <PropertyRef Name="Device_id" />
+          </Key>
+          <Property Name="Device_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Device_category" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Colibrations" Relationship="Self.FK__Colibrati__Instr__2B3F6F97" FromRole="Instruments_category" ToRole="Colibrations" />
+          <NavigationProperty Name="Presure_device" Relationship="Self.FK__Instrumen__Devic__276EDEB3" FromRole="Instruments_category" ToRole="Presure_device" />
+        </EntityType>
+        <EntityType Name="Presure_device">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Device_type" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Device_name" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Mode" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Class" Type="Int32" />
+          <Property Name="Min_range" Type="Double" Nullable="false" />
+          <Property Name="Max_range" Type="Double" Nullable="false" />
+          <Property Name="Resulation" Type="Double" Nullable="false" />
+          <Property Name="Serial_number" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="Manufacturer" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="Reception_Number" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Instruments_category" Relationship="Self.FK__Instrumen__Devic__276EDEB3" FromRole="Presure_device" ToRole="Instruments_category" />
+        </EntityType>
+        <EntityType Name="Refrences">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Range_unit" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Min_range" Type="Double" />
+          <Property Name="Max_range" Type="Double" />
+          <Property Name="Accuracy_unit" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Accuracy" Type="Double" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Colibrati__Instr__2B3F6F97">
+          <End Role="Instruments_category" Type="Self.Instruments_category" Multiplicity="0..1" />
+          <End Role="Colibrations" Type="Self.Colibrations" Multiplicity="*" />
+        </Association>
+        <Association Name="FK__Instrumen__Devic__276EDEB3">
+          <End Role="Presure_device" Type="Self.Presure_device" Multiplicity="1" />
+          <End Role="Instruments_category" Type="Self.Instruments_category" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Presure_device">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Instruments_category">
+              <PropertyRef Name="Device_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AzmounEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Colibrations" EntityType="Self.Colibrations" />
+          <EntitySet Name="Instruments_category" EntityType="Self.Instruments_category" />
+          <EntitySet Name="Presure_device" EntityType="Self.Presure_device" />
+          <EntitySet Name="Refrences" EntityType="Self.Refrences" />
+          <AssociationSet Name="FK__Colibrati__Instr__2B3F6F97" Association="Self.FK__Colibrati__Instr__2B3F6F97">
+            <End Role="Instruments_category" EntitySet="Instruments_category" />
+            <End Role="Colibrations" EntitySet="Colibrations" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Instrumen__Devic__276EDEB3" Association="Self.FK__Instrumen__Devic__276EDEB3">
+            <End Role="Presure_device" EntitySet="Presure_device" />
+            <End Role="Instruments_category" EntitySet="Instruments_category" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AzmounModelStoreContainer" CdmEntityContainer="AzmounEntities">
+          <EntitySetMapping Name="Colibrations">
+            <EntityTypeMapping TypeName="AzmounModel.Colibrations">
+              <MappingFragment StoreEntitySet="Colibrations">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Certificate_Number" ColumnName="Certificate_Number" />
+                <ScalarProperty Name="Date_of_Calibration" ColumnName="Date_of_Calibration" />
+                <ScalarProperty Name="Customer_name" ColumnName="Customer_name" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Re_Calibration_Date" ColumnName="Re_Calibration_Date" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="Form_number" ColumnName="Form_number" />
+                <ScalarProperty Name="Calibration_Condition" ColumnName="Calibration_Condition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Instruments_category">
+            <EntityTypeMapping TypeName="AzmounModel.Instruments_category">
+              <MappingFragment StoreEntitySet="Instruments_category">
+                <ScalarProperty Name="Device_id" ColumnName="Device_id" />
+                <ScalarProperty Name="Device_category" ColumnName="Device_category" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Presure_device">
+            <EntityTypeMapping TypeName="AzmounModel.Presure_device">
+              <MappingFragment StoreEntitySet="Presure_device">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Device_type" ColumnName="Device_type" />
+                <ScalarProperty Name="Device_name" ColumnName="Device_name" />
+                <ScalarProperty Name="Mode" ColumnName="Mode" />
+                <ScalarProperty Name="Class" ColumnName="Class" />
+                <ScalarProperty Name="Min_range" ColumnName="Min_range" />
+                <ScalarProperty Name="Max_range" ColumnName="Max_range" />
+                <ScalarProperty Name="Resulation" ColumnName="Resulation" />
+                <ScalarProperty Name="Serial_number" ColumnName="Serial_number" />
+                <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+                <ScalarProperty Name="Reception_Number" ColumnName="Reception_Number" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Refrences">
+            <EntityTypeMapping TypeName="AzmounModel.Refrences">
+              <MappingFragment StoreEntitySet="Refrences">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Range_unit" ColumnName="Range_unit" />
+                <ScalarProperty Name="Min_range" ColumnName="Min_range" />
+                <ScalarProperty Name="Max_range" ColumnName="Max_range" />
+                <ScalarProperty Name="Accuracy_unit" ColumnName="Accuracy_unit" />
+                <ScalarProperty Name="Accuracy" ColumnName="Accuracy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="FK__Colibrati__Instr__2B3F6F97" TypeName="AzmounModel.FK__Colibrati__Instr__2B3F6F97" StoreEntitySet="Colibrations">
+            <EndProperty Name="Instruments_category">
+              <ScalarProperty Name="Device_id" ColumnName="Instrument_id" />
+            </EndProperty>
+            <EndProperty Name="Colibrations">
+              <ScalarProperty Name="Id" ColumnName="Id" />
+            </EndProperty>
+            <Condition IsNull="false" ColumnName="Instrument_id" />
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="false" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

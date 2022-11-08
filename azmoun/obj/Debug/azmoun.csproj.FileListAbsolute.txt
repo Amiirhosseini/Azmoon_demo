@@ -1,0 +1,258 @@
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\azmoun.exe.config
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.csproj.AssemblyReference.cache
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.Properties.Resources.resources
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.csproj.GenerateResource.cache
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.csproj.CoreCompileInputs.cache
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.Form_Login.resources
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.Form_main_Admin.resources
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.Form_start_colibration.resources
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.csproj.SuggestedBindingRedirects.cache
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.Form_insert_data.resources
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.csproj.CopyComplete
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\DotNetZip.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Spire.License.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Spire.Pdf.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Spire.XLS.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.mshtml.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\DotNetZip.pdb
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\DotNetZip.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Spire.License.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Spire.Pdf.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Spire.XLS.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Colso.Xrm.AttributeEditor.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\McTools.Xrm.Connection.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\McTools.Xrm.Connection.WinForms.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Newtonsoft.Json.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\NuGet.Core.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\XrmToolBox.exe
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\XrmToolBox.Extensibility.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\XrmToolBox.PluginsStore.dll
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\bin\Debug\Newtonsoft.Json.xml
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.Form_CRUD_Admin.resources
+E:\in progress 2\work\Elnz\phase 1\azmoun\obj\Debug\azmoun.Form_create_certificate.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\azmoun.exe.config
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Colso.Xrm.AttributeEditor.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\DotNetZip.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\McTools.Xrm.Connection.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\McTools.Xrm.Connection.WinForms.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Newtonsoft.Json.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\NuGet.Core.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.License.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.Pdf.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.XLS.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\XrmToolBox.exe
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\XrmToolBox.Extensibility.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\XrmToolBox.PluginsStore.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.mshtml.dll
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\DotNetZip.pdb
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\DotNetZip.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Newtonsoft.Json.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.License.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.Pdf.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.XLS.xml
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.AssemblyReference.cache
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.SuggestedBindingRedirects.cache
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_create_certificate.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_CRUD_Admin.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_insert_data.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_Login.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_main_Admin.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_start_colibration.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Properties.Resources.resources
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.GenerateResource.cache
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.CoreCompileInputs.cache
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.CopyComplete
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\azmoun.exe.config
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Colso.Xrm.AttributeEditor.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\DotNetZip.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\McTools.Xrm.Connection.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\McTools.Xrm.Connection.WinForms.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Newtonsoft.Json.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\NuGet.Core.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.License.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.Pdf.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.XLS.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\XrmToolBox.exe
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\XrmToolBox.Extensibility.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\XrmToolBox.PluginsStore.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.mshtml.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\DotNetZip.pdb
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\DotNetZip.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Newtonsoft.Json.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.License.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.Pdf.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\Spire.XLS.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.AssemblyReference.cache
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.SuggestedBindingRedirects.cache
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_check_certificate.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_create_certificate.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_CRUD_Admin.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_insert_data.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_Login.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_main_Admin.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_start_colibration.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Properties.Resources.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.GenerateResource.cache
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.CoreCompileInputs.cache
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.csproj.CopyComplete
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_info_colibration.resources
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\EntityFramework.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\EntityFramework.SqlServer.dll
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\EntityFramework.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\bin\Debug\EntityFramework.SqlServer.xml
+E:\in progress 2\work\Elnz\new branch\phase 1 - Copy (3)\azmoun\obj\Debug\azmoun.Form_insert.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\azmoun.exe.config
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Colso.Xrm.AttributeEditor.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\DotNetZip.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\EntityFramework.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\EntityFramework.SqlServer.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\McTools.Xrm.Connection.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\McTools.Xrm.Connection.WinForms.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Newtonsoft.Json.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\NuGet.Core.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Spire.License.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Spire.Pdf.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Spire.XLS.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\XrmToolBox.exe
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\XrmToolBox.Extensibility.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\XrmToolBox.PluginsStore.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.mshtml.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\DotNetZip.pdb
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\DotNetZip.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\EntityFramework.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\EntityFramework.SqlServer.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Newtonsoft.Json.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Spire.License.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Spire.Pdf.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Spire.XLS.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.csproj.AssemblyReference.cache
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.csproj.SuggestedBindingRedirects.cache
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_check_certificate.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_create_certificate.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_CRUD_Admin.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_info_colibration.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_insert_data.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_Login.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_main_Admin.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_start_colibration.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Properties.Resources.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.csproj.GenerateResource.cache
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.csproj.CoreCompileInputs.cache
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.csproj.CopyComplete
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.exe
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.pdb
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_CRUD_refrence.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_insert_device.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\obj\Debug\azmoun.Form_insert_refrence.resources
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Buffers.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Memory.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Numerics.Vectors.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Text.Encodings.Web.dll
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Buffers.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Memory.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Numerics.Vectors.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\in progress 2\work\Elnz\new branch\server side\azmoun\bin\Debug\System.Text.Encodings.Web.xml

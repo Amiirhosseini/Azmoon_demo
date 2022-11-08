@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AzmounModelStoreContainer" CdmEntityContainer="AzmounEntities">
+    <EntitySetMapping Name="Colibrations">
+      <EntityTypeMapping TypeName="AzmounModel.Colibrations">
+        <MappingFragment StoreEntitySet="Colibrations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Certificate_Number" ColumnName="Certificate_Number" />
+          <ScalarProperty Name="Date_of_Calibration" ColumnName="Date_of_Calibration" />
+          <ScalarProperty Name="Customer_name" ColumnName="Customer_name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Re_Calibration_Date" ColumnName="Re_Calibration_Date" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Form_number" ColumnName="Form_number" />
+          <ScalarProperty Name="Calibration_Condition" ColumnName="Calibration_Condition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Instruments_category">
+      <EntityTypeMapping TypeName="AzmounModel.Instruments_category">
+        <MappingFragment StoreEntitySet="Instruments_category">
+          <ScalarProperty Name="Device_id" ColumnName="Device_id" />
+          <ScalarProperty Name="Device_category" ColumnName="Device_category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Presure_device">
+      <EntityTypeMapping TypeName="AzmounModel.Presure_device">
+        <MappingFragment StoreEntitySet="Presure_device">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Device_type" ColumnName="Device_type" />
+          <ScalarProperty Name="Device_name" ColumnName="Device_name" />
+          <ScalarProperty Name="Mode" ColumnName="Mode" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Min_range" ColumnName="Min_range" />
+          <ScalarProperty Name="Max_range" ColumnName="Max_range" />
+          <ScalarProperty Name="Resulation" ColumnName="Resulation" />
+          <ScalarProperty Name="Serial_number" ColumnName="Serial_number" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="Reception_Number" ColumnName="Reception_Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Refrences">
+      <EntityTypeMapping TypeName="AzmounModel.Refrences">
+        <MappingFragment StoreEntitySet="Refrences">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Range_unit" ColumnName="Range_unit" />
+          <ScalarProperty Name="Min_range" ColumnName="Min_range" />
+          <ScalarProperty Name="Max_range" ColumnName="Max_range" />
+          <ScalarProperty Name="Accuracy_unit" ColumnName="Accuracy_unit" />
+          <ScalarProperty Name="Accuracy" ColumnName="Accuracy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK__Colibrati__Instr__2B3F6F97" TypeName="AzmounModel.FK__Colibrati__Instr__2B3F6F97" StoreEntitySet="Colibrations">
+      <EndProperty Name="Instruments_category">
+        <ScalarProperty Name="Device_id" ColumnName="Instrument_id" />
+      </EndProperty>
+      <EndProperty Name="Colibrations">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="Instrument_id" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

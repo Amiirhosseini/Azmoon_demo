@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azmoun", "azmoun.csproj", "{884F8DE1-9A45-4E49-B1B3-872ECD02CAD8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{459FEF6D-DEB6-4625-8F11-6023BB9A6A1E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRelease", "..\SetupRelease\SetupRelease.vdproj", "{AD293690-22AB-493C-A04B-B60426B0FF90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{884F8DE1-9A45-4E49-B1B3-872ECD02CAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884F8DE1-9A45-4E49-B1B3-872ECD02CAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884F8DE1-9A45-4E49-B1B3-872ECD02CAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884F8DE1-9A45-4E49-B1B3-872ECD02CAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459FEF6D-DEB6-4625-8F11-6023BB9A6A1E}.Debug|Any CPU.ActiveCfg = Debug
+		{459FEF6D-DEB6-4625-8F11-6023BB9A6A1E}.Release|Any CPU.ActiveCfg = Release
+		{AD293690-22AB-493C-A04B-B60426B0FF90}.Debug|Any CPU.ActiveCfg = Debug
+		{AD293690-22AB-493C-A04B-B60426B0FF90}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F9F1DFE-CFFE-4CF7-BE8C-67E1D566D247}
+	EndGlobalSection
+EndGlobal

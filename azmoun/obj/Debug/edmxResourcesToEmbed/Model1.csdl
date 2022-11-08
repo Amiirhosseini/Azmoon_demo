@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AzmounModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Colibrations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Certificate_Number" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Date_of_Calibration" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Customer_name" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="Re_Calibration_Date" Type="DateTime" Precision="0" />
+    <Property Name="Location" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Name="Form_number" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Calibration_Condition" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Instruments_category" Relationship="Self.FK__Colibrati__Instr__2B3F6F97" FromRole="Colibrations" ToRole="Instruments_category" />
+  </EntityType>
+  <EntityType Name="Instruments_category">
+    <Key>
+      <PropertyRef Name="Device_id" />
+    </Key>
+    <Property Name="Device_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Device_category" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Colibrations" Relationship="Self.FK__Colibrati__Instr__2B3F6F97" FromRole="Instruments_category" ToRole="Colibrations" />
+    <NavigationProperty Name="Presure_device" Relationship="Self.FK__Instrumen__Devic__276EDEB3" FromRole="Instruments_category" ToRole="Presure_device" />
+  </EntityType>
+  <EntityType Name="Presure_device">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Device_type" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Device_name" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Mode" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Class" Type="Int32" />
+    <Property Name="Min_range" Type="Double" Nullable="false" />
+    <Property Name="Max_range" Type="Double" Nullable="false" />
+    <Property Name="Resulation" Type="Double" Nullable="false" />
+    <Property Name="Serial_number" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="Manufacturer" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="Reception_Number" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Instruments_category" Relationship="Self.FK__Instrumen__Devic__276EDEB3" FromRole="Presure_device" ToRole="Instruments_category" />
+  </EntityType>
+  <EntityType Name="Refrences">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="category" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Range_unit" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Min_range" Type="Double" />
+    <Property Name="Max_range" Type="Double" />
+    <Property Name="Accuracy_unit" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Accuracy" Type="Double" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Colibrati__Instr__2B3F6F97">
+    <End Role="Instruments_category" Type="Self.Instruments_category" Multiplicity="0..1" />
+    <End Role="Colibrations" Type="Self.Colibrations" Multiplicity="*" />
+  </Association>
+  <Association Name="FK__Instrumen__Devic__276EDEB3">
+    <End Role="Presure_device" Type="Self.Presure_device" Multiplicity="1" />
+    <End Role="Instruments_category" Type="Self.Instruments_category" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Presure_device">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Instruments_category">
+        <PropertyRef Name="Device_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AzmounEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Colibrations" EntityType="Self.Colibrations" />
+    <EntitySet Name="Instruments_category" EntityType="Self.Instruments_category" />
+    <EntitySet Name="Presure_device" EntityType="Self.Presure_device" />
+    <EntitySet Name="Refrences" EntityType="Self.Refrences" />
+    <AssociationSet Name="FK__Colibrati__Instr__2B3F6F97" Association="Self.FK__Colibrati__Instr__2B3F6F97">
+      <End Role="Instruments_category" EntitySet="Instruments_category" />
+      <End Role="Colibrations" EntitySet="Colibrations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Instrumen__Devic__276EDEB3" Association="Self.FK__Instrumen__Devic__276EDEB3">
+      <End Role="Presure_device" EntitySet="Presure_device" />
+      <End Role="Instruments_category" EntitySet="Instruments_category" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
